@@ -1,0 +1,8 @@
+prefix=/home/carson/vicon_ws/install
+
+Name: vrpn_client_ros
+Description: Description of vrpn_client_ros
+Version: 0.1.1
+Cflags: -I/home/carson/vicon_ws/install/include -I/opt/ros/indigo/include
+Libs: -L/home/carson/vicon_ws/install/lib -lvrpn_client_ros /opt/ros/indigo/lib/libvrpn.a
+Requires: geometry_msgs tf2_ros

@@ -1,0 +1,2 @@
+vicon_bridge:vrpn_client_ros
+-DCATKIN_DEVEL_PREFIX=/home/carson/vicon_ws/devel -DCMAKE_INSTALL_PREFIX=/home/carson/vicon_ws/install -G Unix Makefiles
