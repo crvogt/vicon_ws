@@ -1,0 +1,2 @@
+set(crazyflie_driver_MESSAGE_FILES "/home/carson/vicon_ws/src/crazyflie_ros/crazyflie_driver/msg/LogBlock.msg;/home/carson/vicon_ws/src/crazyflie_ros/crazyflie_driver/msg/GenericLogData.msg")
+set(crazyflie_driver_SERVICE_FILES "/home/carson/vicon_ws/src/crazyflie_ros/crazyflie_driver/srv/AddCrazyflie.srv;/home/carson/vicon_ws/src/crazyflie_ros/crazyflie_driver/srv/RemoveCrazyflie.srv;/home/carson/vicon_ws/src/crazyflie_ros/crazyflie_driver/srv/UpdateParams.srv")

@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o"
   "/home/carson/vicon_ws/devel/lib/vicon_bridge/testclient.pdb"
   "/home/carson/vicon_ws/devel/lib/vicon_bridge/testclient"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/testclient.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/testclient.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

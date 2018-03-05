@@ -4,6 +4,7 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-SUBDIRS(gtest)
-SUBDIRS(vicon_bridge)
-SUBDIRS(vrpn_client_ros)
+subdirs(gtest)
+subdirs(filter_test)
+subdirs(vicon_bridge)
+subdirs(vrpn_client_ros)

@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/vicon_bridge_generate_messages_lisp"
   "/home/carson/vicon_ws/devel/share/common-lisp/ros/vicon_bridge/msg/Marker.lisp"
   "/home/carson/vicon_ws/devel/share/common-lisp/ros/vicon_bridge/msg/Markers.lisp"
@@ -8,6 +8,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang)
-  INCLUDE(CMakeFiles/vicon_bridge_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang)
+  include(CMakeFiles/vicon_bridge_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
